@@ -1,0 +1,65 @@
+body {
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  margin: 50px auto 50px auto;
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  font-size: 5.625rem;
+}
+h2 {
+  color: #000000;
+  padding-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  font-size: 4.2rem;
+}
+
+/*************CLASS SELECTORS*************/
+.top-container {
+  background-color: #ffff;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+  z-index: 3;
+}
+.header-text {
+  padding-left: 450px;
+  text-align: left;
+}
+
+.header-image {
+  width: 481px;
+  height: 271px;
+  float: right;
+  margin-right: 410px;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  animation: rotation 0.5s infinite linear alternate;
+  z-index: 2;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.middle-container {
+  background-color: #000000;
+  position: relative;
+  padding-bottom: 100px;
+}
+.middle-text {
+  color: #ffff;
+}
+
+.copyright {
+}
