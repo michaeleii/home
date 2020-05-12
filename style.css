@@ -13,10 +13,20 @@ h1 {
 }
 h2 {
   color: #000000;
-  padding-top: 100px;
   font-family: "Inter", sans-serif;
   font-weight: medium;
   font-size: 4.2rem;
+}
+
+h3 {
+    color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  font-size: 3.2rem;
+}
+p {
+  color: #000000;
+  font-family: "Inter", sans-serif;
 }
 
 /*************CLASS SELECTORS*************/
@@ -28,7 +38,7 @@ h2 {
   z-index: 3;
 }
 .header-text {
-  padding-left: 450px;
+  padding-left: 20%;
   text-align: left;
 }
 
@@ -58,8 +68,35 @@ h2 {
   padding-bottom: 100px;
 }
 .middle-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
   color: #ffff;
 }
-
-.copyright {
+/*************CAROUSEL*************/
+.drama-image {
+  width: 60%;
+  height: 60%
 }
+
+.carousel-caption {
+  bottom: 0;
+  background-color: #0000006e;
+}
+
+/*************FOOTER*************/
+footer {
+  padding-top: 20px;
+}
+.footer-text {
+  padding-top: 20px;
+}
+.btn-light {
+  color: #000000;
+}
+.btn-light:hover {
+  color: #ffff;
+  background-color: #000000;
+}
+
+
+
