@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    color: #ffff;
+  color: #ffff;
   font-family: "Inter", sans-serif;
   font-weight: medium;
   font-size: 3.2rem;
@@ -46,7 +46,7 @@ p {
   width: 481px;
   height: 271px;
   float: right;
-  margin-right: 410px;
+  margin-right: 10%;
   margin-top: 70px;
   padding-bottom: 30px;
   animation: rotation 0.5s infinite linear alternate;
@@ -75,12 +75,15 @@ p {
 /*************CAROUSEL*************/
 .drama-image {
   width: 60%;
-  height: 60%
+  height: 60%;
 }
 
 .carousel-caption {
   bottom: 0;
   background-color: #0000006e;
+}
+.carousel-control.right {
+  background-color: none;
 }
 
 /*************FOOTER*************/
@@ -97,6 +100,94 @@ footer {
   color: #ffff;
   background-color: #000000;
 }
+/*************IPAD*************/
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin: 0 auto 50px auto;
+  }
+  .header-image {
+    width: 281px;
+    height: 271px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .header-text {
+    padding-left: 10%;
+    text-align: left;
+    font-size: 4.2rem;
+  }
+  .drama-image {
+  width: 80%;
+  height: 80%;
+}
 
+}
 
+@media only screen and (max-width: 1024px) {
+  h1 {
+    margin: 0 auto 50px auto;
+  }
+  .header-image {
+    width: 281px;
+    height: 271px;
+    margin-top: 0;
+    margin-right: 50px;
+  }
+  .header-text {
+    padding-left: 8%;
+    text-align: left;
+    font-size: 4.2rem;
+  }
+  .drama-image {
+  width: 80%;
+  height: 80%;
+}
 
+}
+/*************PHONE*************/
+
+@media only screen and (max-width: 736px) {
+  h1 {
+    margin: 0 auto 50px auto;
+  }
+  .header-image {
+    width: 160px;
+    height: 271px;
+    margin-top: 0;
+    margin-right: 50px;
+  }
+  .header-text {
+    padding-left: 2%;
+    text-align: center;
+    font-size: 4.2rem;
+  }
+.drama-image {
+  width: 80%;
+  height: 80%;
+}
+}
+
+@media only screen and (max-width: 414px) {
+  h1 {
+    margin: 0 auto 50px auto;
+  }
+  .header-image {
+    width: 160px;
+    height: 271px;
+    margin-top: 0;
+    margin-right: 10px;
+    float: right;
+  }
+  .header-text {
+    padding-left: 5%;
+    text-align: left;
+    font-size: 3.2rem;
+  }
+.drama-image {
+  width: 70%;
+  height: 100%;
+}
+.carousel-caption h3 {
+  font-size: 1.2rem;
+}
+}
